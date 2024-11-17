@@ -1,0 +1,42 @@
+/* Genel Ayarlar */
+body {
+    display: flex; /* Kutucukları yan yana veya alt alta hizalamak için flexbox kullanımı */
+    flex-direction: column; /* Kutuları dikey hizalama */
+    align-items: center; /* Yatayda ortalama */
+    justify-content: center; /* Dikeyde ortalama */
+    height: 100vh; /* Sayfa yüksekliği kadar alan kapla */
+    margin: 0; /* Varsayılan boşlukları kaldır */
+    background-color: #f4f4f4; /* Arka plan rengi */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+  }
+  
+  /* Ortak Stil Ayarları */
+  div {
+    width: 60px; /* Kutunun genişliği */
+    height: 60px; /* Kutunun yüksekliği */
+    font-size: 30px; /* Yazı boyutu */
+    text-align: center; /* Yazıyı ortala */
+    line-height: 60px; /* Yazıyı dikey ortala */
+    font-weight: bold; /* Yazıyı kalın yap */
+    margin: 5px; /* Kutular arası boşluk */
+    border-radius: 10px; /* Köşeleri yuvarlat */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Kutulara hafif gölge */
+  }
+  
+  /* Birinci Kutucuk - C */
+  #kutucuk1 {
+    background-color: tomato; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+  }
+  
+  /* İkinci Kutucuk - S */
+  #kutucuk2 {
+    background-color: teal; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+  }
+  
+  /* Üçüncü Kutucuk - S */
+  #kutucuk3 {
+    background-color: purple; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+  }  

@@ -1,0 +1,56 @@
+/* Genel Ayarlar */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: orange; /* Arka plan rengi turuncu */
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  height: 100vh; /* Sayfa yüksekliği kadar alan kapla */
+  font-family: Arial, sans-serif; /* Yazı tipi */
+}
+
+/* Harflerin bulunduğu container */
+.container {
+  display: inline; /* Harfleri yatay hizala */
+  gap: 10px; /* Harfler arası boşluk */
+}
+
+/* Tüm harflerin ortak stil özellikleri */
+.harf {
+  display: inline-block;
+  font-size: 30px; /* Yazı boyutu */
+  color: black; /* Yazı rengi */
+  background-color: #ffcc00; /* Sarımsı arka plan rengi */
+  padding: 10px 15px; /* İç boşluk */
+  border-radius: 5px; /* Köşeleri yuvarlat */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+  text-align: center; /* Yazıyı ortala */
+  font-weight: bold; /* Yazıyı kalın yap */
+  transition: all 0.3s ease; /* Geçiş efektleri */
+}
+
+/* Hover efekti: Fare ile üzerine gelindiğinde */
+.harf:hover {
+  background-color: #444; /* Arka plan rengi koyu gri */
+  color: white; /* Yazı rengi beyaz */
+  transform: scale(1.1); /* Hafif büyütme efekti */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Daha belirgin gölge */
+}
+
+/* Özel harf (J) için stil */
+#ozelHarf {
+  font-size: 40px; /* Daha büyük yazı boyutu */
+  color: white; /* Yazı rengi beyaz */
+  background-color: #d50000; /* Kırmızı arka plan rengi */
+  padding: 15px 20px; /* Daha fazla iç boşluk */
+  border-radius: 10px; /* Daha yuvarlak köşeler */
+  transition: all 0.3s ease; /* Geçiş efektleri */
+}
+
+/* Özel harf için hover efekti */
+#ozelHarf:hover {
+  background-color: #b71c1c; /* Daha koyu kırmızı */
+  transform: scale(1.15); /* Biraz daha fazla büyüme efekti */
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); /* Daha yoğun gölge efekti */
+}
